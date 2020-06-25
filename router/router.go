@@ -10,5 +10,6 @@ func init() {
 	s := g.Server()
 	s.Group("/", func(group *ghttp.RouterGroup) {
 		group.ALL("/", hello.Hello)
+		group.POST("/image",hello.SendImage)
 	})
 }

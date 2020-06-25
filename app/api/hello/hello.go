@@ -37,6 +37,7 @@ func Hello(r *ghttp.Request) {
     r.Response.Writeln("Hello World!")
 }
 
+//todo:推送到钉钉
 func SendImage(r *ghttp.Request) *Image {
     var imagemsg *ImageMsg
     _ = r.Parse(&imagemsg)
