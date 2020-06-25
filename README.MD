@@ -2,6 +2,6 @@
 
 todo：
 
- [ ] nsqd server
+1. [ ] nsqd server
 
 goforest操作执行单元
